@@ -333,10 +333,10 @@ int main() {
         cout << "\t\t\t\t\t\t      Exit" << (selectedOption == 0 ? "  <" : "") << endl;
 
         char input = getArrowKeyInput();
-        if (input == 'U') {
+        if (input == 85) {
             selectedOption = (selectedOption + maxOptions - 1) % maxOptions;
         }
-        else if (input == 'D') { 
+        else if (input == 68) { 
             selectedOption = (selectedOption + 1) % maxOptions;
         }
         else if (input == '\r') {
